@@ -24,8 +24,10 @@ namespace Hangman
             while (playing == true)
             {
                 //choose a radom word from list
-                List<string> items = ("baseball", "tennisball", "basketball");
-
+                List<string> items = ("baseball", "tennisball", "basketball", "bowlingball");
+                Random rng = new Random();
+                int randomeNum = rng.Next();
+                int input = int.Parse(Console.ReadLine)
             }
         }
     }
